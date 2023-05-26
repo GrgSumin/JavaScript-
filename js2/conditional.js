@@ -15,4 +15,4 @@
 
 
  //
- console.log("you can " , a<18? "not drive" : "drive")// ternort operator basically evaluates a condition and excude the code according to conditionn
+ console.log("you can " , a<18? "not drive" : "drive")// ternory operator basically evaluates a condition and excude the code according to conditionn

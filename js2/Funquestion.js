@@ -1,6 +1,6 @@
 //guess the number
 
-let random  = Math.floor(Math.random() *10)+ 1;
+let random  = Math.random() *100;
 // generate random number
 let number = parseInt(prompt("guess the number"));
 //keep asking for number until correct number is guessed
@@ -10,6 +10,13 @@ while(number != random){
 }
 if (number == random){
     console.log("you have guessed the correct number")
+
+}
+else if (number < random){
+    console.log("your number is less than guessed number")
+}
+else {
+    console.log("your number is greater than guessed number")
 }
 
 //eventually after game is finished , display the number of chances
