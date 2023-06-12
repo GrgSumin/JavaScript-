@@ -6,7 +6,7 @@ let y = document.getElementsByTagName('span')[0]
 console.log(y)
 console.log(document.body.firstChild.nodeName)
 console.log(document.body.firstElementChild.nodeName)
-//innerHTML property allowa to get html inside the element as a string which is vbalid for onlu nodes
+//innerHTML property allowa to get html inside the element as a string which is valid for onlu nodes
 console.log(span1.innerHTML = "<h1>hello beautiful peoples</h1>")
 //outerHTML property contains the full HTML inner HTML+ the element itself
 console.log(span1.outerHTML)

@@ -20,3 +20,17 @@ table {
     display: flex;
     border: solid;
 }
+.red{
+ background-color:red;
+}
+.yellow{
+    background-color:yellow;
+}
+.bulb{
+    background-color:yellow;
+}
+.bulbcontainer{
+    height: 340px;
+    width: 340px;
+   
+}
